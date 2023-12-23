@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/a10garwzcupr/repositories/MatrixCaptive/
+    - export DEPLOYPATH=/home/a10garwzcupr/public_html/MatrixCaptive/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
